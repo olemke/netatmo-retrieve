@@ -1,0 +1,22 @@
+[project]
+name = "netatmo-retrieve"
+version = "0.1.0"
+description = "Python script to retrieve data from Netatmo"
+authors = [
+    {name = "Oliver Lemke", email = "oliver.lemke@uni-hamburg.de"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["G004", "T201"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"

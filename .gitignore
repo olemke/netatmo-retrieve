@@ -1,0 +1,5 @@
+*.pdf
+*.zip
+__pycache__/
+csv*/
+netatmo-2022-01-15-17/
