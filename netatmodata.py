@@ -36,7 +36,7 @@ class NetatmoData:
             area (dict): The area to download data for.
             startdate (datetime): The start date for the data download in UTC.
             enddate (datetime): The end date for the data download in UTC.
-            name (str | None, optional): The name of the data set. Defaults to None.
+            name (str): The name of the data set. Defaults to "data".
         """
         self.autorization = None
         self.stations: list = None
