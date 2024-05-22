@@ -2,7 +2,7 @@
 
 ## Installation
 
-This package requires the Github version of `lnetatmo` from [philippelt/lnetatmo](https://github.com/philippelt/lnetatmo):
+This package requires the Github version of `lnetatmo` from [philippelt/netatmo-api-python](https://github.com/philippelt/netatmo-api-python):
 
 ```bash
 pip install git+https://github.com/philippelt/netatmo-api-python.git
