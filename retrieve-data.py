@@ -62,8 +62,8 @@ def plot_stations(nd: NetatmoData) -> None:
     from matplotlib import pyplot as plt
 
     # Define the latitude and longitude coordinates for the rectangle
-    lon1, lon2 = -60, -130
-    lat1, lat2 = 15, 55
+    lon1, lon2 = nd.area["west"], nd.area["east"]
+    lat1, lat2 = nd.area["north"], nd.area["south"]
 
     # Create a new figure and axis with a PlateCarree projection
     fig, ax = plt.subplots(
